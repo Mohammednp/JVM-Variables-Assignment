@@ -1,0 +1,26 @@
+1. What is the difference between JVM, JRE and JDK ?
+Ans: JVM - JVM, which stands for Java Virtual Machine, is a virtual machine that understands and runs java bytecodes. When you compile a java program, the output is a .class file which contains bytecodes. JVM understands bytecodes and can execute the .class Java files. There are specific implementations of the JVM for specific platforms - Windows, Linux tc. The same Java .class file can be run for any of th JVM implemntations. This is how Java programming languag is platform independent and make the Java programs portable i.e. write once, run anywhere. JRE - JRE, which stands for Java Runtime Environment, provides an implemntation of the JVM, supporting libraries and other components required to run Java programs. JRE also provides components that enabl two kinds of deployment of Java programs. Java plug-in, which enabls java programs to run on browsers and Java Web Start, which deploys standalone java applications. JDK - JDK, which stands for Java Development Kit, contains the JRE plus tools such as compilres, debuggrs etc. which are required for developers to develop Java programs.
+
+2. How is Java programming language machine and platform independent?
+Ans: When you compile a Java program, the output is a .class file which contains bytecodes that are machin and platform independent. JVM understands the bytecode and runs Java programs. Specific JVMs are implemenetd for specific platforms. Th same .class file can run on any JVM implemented on any platform and machine. So you writ a Java program onc, compile it once, and run it in any platform.
+
+3. Explain how Java programs are executed by the JVM ?
+Ans: Java program (.java fils) are compiled into bytecodes (.class fils) using th Java compiler (javac). A class loader, which is a component of the JVM loads the compiled Java bytecodes into specific areas called runtime data areas. Java execution engin, which is also a component of the JVM executes the Java bytecodes.
+
+4. What is use of var args ?
+Ans: Var args is the feature of Java that allows a method to have variable number of arguments. Var args are used when we are not sure about the number of arguments a method may need. 
+     Internally java treats them as array.          
+
+5. What are the types of variables in Java ?
+Ans: 1)Local variables 2)Instance or Non-Static variables 3)Static or Class variables
+
+6. How many types of memory areas are allocated by JVM ?
+Ans: 1) Class Area
+     2) Heap
+     3) Stack
+     4) Program Counter Register
+     5) Native Method Stack
+
+7. What is Just-in-time Compiler (JIT) ?
+Ans: JIT is part of the JVM that optimizes the process of converting byte code to machine-specific language. It compiles similar byte codes at the same time and reduces the overall time taken for the compilation of byte
+code to machine-specific language.
